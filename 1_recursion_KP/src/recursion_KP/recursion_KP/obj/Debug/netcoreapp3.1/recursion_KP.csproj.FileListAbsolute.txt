@@ -12,3 +12,17 @@ C:\Users\Łukasz Tworzydło\source\repos\recursion_KP\recursion_KP\obj\Debug\net
 C:\Users\Łukasz Tworzydło\source\repos\recursion_KP\recursion_KP\obj\Debug\netcoreapp3.1\recursion_KP.dll
 C:\Users\Łukasz Tworzydło\source\repos\recursion_KP\recursion_KP\obj\Debug\netcoreapp3.1\recursion_KP.pdb
 C:\Users\Łukasz Tworzydło\source\repos\recursion_KP\recursion_KP\obj\Debug\netcoreapp3.1\recursion_KP.genruntimeconfig.cache
+C:\Users\Łukasz Tworzydło\Desktop\Carpe Tonus\GitHub Repositories\2022-Q1-1_C-sharp_intermediate-projects\1_recursion_KP\src\2022-01-03 (2)\recursion_KP\recursion_KP\bin\Debug\netcoreapp3.1\recursion_KP.exe
+C:\Users\Łukasz Tworzydło\Desktop\Carpe Tonus\GitHub Repositories\2022-Q1-1_C-sharp_intermediate-projects\1_recursion_KP\src\2022-01-03 (2)\recursion_KP\recursion_KP\bin\Debug\netcoreapp3.1\recursion_KP.deps.json
+C:\Users\Łukasz Tworzydło\Desktop\Carpe Tonus\GitHub Repositories\2022-Q1-1_C-sharp_intermediate-projects\1_recursion_KP\src\2022-01-03 (2)\recursion_KP\recursion_KP\bin\Debug\netcoreapp3.1\recursion_KP.runtimeconfig.json
+C:\Users\Łukasz Tworzydło\Desktop\Carpe Tonus\GitHub Repositories\2022-Q1-1_C-sharp_intermediate-projects\1_recursion_KP\src\2022-01-03 (2)\recursion_KP\recursion_KP\bin\Debug\netcoreapp3.1\recursion_KP.runtimeconfig.dev.json
+C:\Users\Łukasz Tworzydło\Desktop\Carpe Tonus\GitHub Repositories\2022-Q1-1_C-sharp_intermediate-projects\1_recursion_KP\src\2022-01-03 (2)\recursion_KP\recursion_KP\bin\Debug\netcoreapp3.1\recursion_KP.dll
+C:\Users\Łukasz Tworzydło\Desktop\Carpe Tonus\GitHub Repositories\2022-Q1-1_C-sharp_intermediate-projects\1_recursion_KP\src\2022-01-03 (2)\recursion_KP\recursion_KP\bin\Debug\netcoreapp3.1\recursion_KP.pdb
+C:\Users\Łukasz Tworzydło\Desktop\Carpe Tonus\GitHub Repositories\2022-Q1-1_C-sharp_intermediate-projects\1_recursion_KP\src\2022-01-03 (2)\recursion_KP\recursion_KP\obj\Debug\netcoreapp3.1\recursion_KP.csproj.AssemblyReference.cache
+C:\Users\Łukasz Tworzydło\Desktop\Carpe Tonus\GitHub Repositories\2022-Q1-1_C-sharp_intermediate-projects\1_recursion_KP\src\2022-01-03 (2)\recursion_KP\recursion_KP\obj\Debug\netcoreapp3.1\recursion_KP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Łukasz Tworzydło\Desktop\Carpe Tonus\GitHub Repositories\2022-Q1-1_C-sharp_intermediate-projects\1_recursion_KP\src\2022-01-03 (2)\recursion_KP\recursion_KP\obj\Debug\netcoreapp3.1\recursion_KP.AssemblyInfoInputs.cache
+C:\Users\Łukasz Tworzydło\Desktop\Carpe Tonus\GitHub Repositories\2022-Q1-1_C-sharp_intermediate-projects\1_recursion_KP\src\2022-01-03 (2)\recursion_KP\recursion_KP\obj\Debug\netcoreapp3.1\recursion_KP.AssemblyInfo.cs
+C:\Users\Łukasz Tworzydło\Desktop\Carpe Tonus\GitHub Repositories\2022-Q1-1_C-sharp_intermediate-projects\1_recursion_KP\src\2022-01-03 (2)\recursion_KP\recursion_KP\obj\Debug\netcoreapp3.1\recursion_KP.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz Tworzydło\Desktop\Carpe Tonus\GitHub Repositories\2022-Q1-1_C-sharp_intermediate-projects\1_recursion_KP\src\2022-01-03 (2)\recursion_KP\recursion_KP\obj\Debug\netcoreapp3.1\recursion_KP.dll
+C:\Users\Łukasz Tworzydło\Desktop\Carpe Tonus\GitHub Repositories\2022-Q1-1_C-sharp_intermediate-projects\1_recursion_KP\src\2022-01-03 (2)\recursion_KP\recursion_KP\obj\Debug\netcoreapp3.1\recursion_KP.pdb
+C:\Users\Łukasz Tworzydło\Desktop\Carpe Tonus\GitHub Repositories\2022-Q1-1_C-sharp_intermediate-projects\1_recursion_KP\src\2022-01-03 (2)\recursion_KP\recursion_KP\obj\Debug\netcoreapp3.1\recursion_KP.genruntimeconfig.cache

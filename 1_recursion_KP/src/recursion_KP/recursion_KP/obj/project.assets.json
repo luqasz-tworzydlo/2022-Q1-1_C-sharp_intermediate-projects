@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Łukasz Tworzydło\\source\\repos\\recursion_KP\\recursion_KP\\recursion_KP.csproj",
+      "projectUniqueName": "C:\\Users\\Łukasz Tworzydło\\Desktop\\Carpe Tonus\\GitHub Repositories\\2022-Q1-1_C-sharp_intermediate-projects\\1_recursion_KP\\src\\2022-01-03 (2)\\recursion_KP\\recursion_KP\\recursion_KP.csproj",
       "projectName": "recursion_KP",
-      "projectPath": "C:\\Users\\Łukasz Tworzydło\\source\\repos\\recursion_KP\\recursion_KP\\recursion_KP.csproj",
+      "projectPath": "C:\\Users\\Łukasz Tworzydło\\Desktop\\Carpe Tonus\\GitHub Repositories\\2022-Q1-1_C-sharp_intermediate-projects\\1_recursion_KP\\src\\2022-01-03 (2)\\recursion_KP\\recursion_KP\\recursion_KP.csproj",
       "packagesPath": "C:\\Users\\Łukasz Tworzydło\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Łukasz Tworzydło\\source\\repos\\recursion_KP\\recursion_KP\\obj\\",
+      "outputPath": "C:\\Users\\Łukasz Tworzydło\\Desktop\\Carpe Tonus\\GitHub Repositories\\2022-Q1-1_C-sharp_intermediate-projects\\1_recursion_KP\\src\\2022-01-03 (2)\\recursion_KP\\recursion_KP\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Łukasz Tworzydło\\AppData\\Roaming\\NuGet\\NuGet.Config"

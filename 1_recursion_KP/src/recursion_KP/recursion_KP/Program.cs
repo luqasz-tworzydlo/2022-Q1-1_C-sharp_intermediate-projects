@@ -4,9 +4,18 @@ namespace ConsoleApp1
 {
     class Program
     {
-        static double Oblicz_an(ulong an, double a1, double a2)
+        static void Oblicz_an(ulong an, double a1, double a2)
         {
-            return ((2 * (an - a1)) - (an - a2));
+            double result = 0;
+            Console.Write("=> wartość a1 = {0}\n=> wartość a2 = {1}\n", a1, a2);
+            Console.WriteLine("Wartości \"an\" w ciągu:");
+            for (uint i = 2; i < an; i++)
+            {
+                result = 2 * a1 - a2;
+                Console.WriteLine("=> {0}", result);
+                a1 = a2;
+                a2 = result;
+            }
         }
         static void Main(string[] args)
         {
@@ -39,15 +48,11 @@ namespace ConsoleApp1
 
                 ulong an;
 
-                Console.WriteLine("\n-> Podaj liczbę elementów ciągu (beznakowy typ całkowity): ");
+                Console.WriteLine("\n-> Podaj liczbę elementów ciągu (beznakowy typ całkowity - co najmniej 3): ");
                 an = Convert.ToUInt64(Console.ReadLine());
 
-                Console.WriteLine(
-                    "\nDla wzoru \"an = 2*an-1 - an-2\" " +
-                    $"\n=> wartość a1 = {a1} " +
-                    $"\n=> wartość a2 = {a2} " +
-                    "\n=> wartość an " +
-                    "wynosi: " + Oblicz_an(an, a1, a2));
+                Console.WriteLine("\nDla wzoru \"an = 2*an-1 - an-2\": ");
+                Oblicz_an(an, a1, a2);
 
                 Console.WriteLine(
                     $"\nCzy chcesz powtórzyć działanie programu?" +
