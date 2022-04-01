@@ -1,0 +1,14 @@
+C:\Users\Łukasz Tworzydło\source\repos\calendar_KK\calendar_KK\bin\Debug\netcoreapp3.1\calendar_KK.exe
+C:\Users\Łukasz Tworzydło\source\repos\calendar_KK\calendar_KK\bin\Debug\netcoreapp3.1\calendar_KK.deps.json
+C:\Users\Łukasz Tworzydło\source\repos\calendar_KK\calendar_KK\bin\Debug\netcoreapp3.1\calendar_KK.runtimeconfig.json
+C:\Users\Łukasz Tworzydło\source\repos\calendar_KK\calendar_KK\bin\Debug\netcoreapp3.1\calendar_KK.runtimeconfig.dev.json
+C:\Users\Łukasz Tworzydło\source\repos\calendar_KK\calendar_KK\bin\Debug\netcoreapp3.1\calendar_KK.dll
+C:\Users\Łukasz Tworzydło\source\repos\calendar_KK\calendar_KK\bin\Debug\netcoreapp3.1\calendar_KK.pdb
+C:\Users\Łukasz Tworzydło\source\repos\calendar_KK\calendar_KK\obj\Debug\netcoreapp3.1\calendar_KK.csproj.AssemblyReference.cache
+C:\Users\Łukasz Tworzydło\source\repos\calendar_KK\calendar_KK\obj\Debug\netcoreapp3.1\calendar_KK.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Łukasz Tworzydło\source\repos\calendar_KK\calendar_KK\obj\Debug\netcoreapp3.1\calendar_KK.AssemblyInfoInputs.cache
+C:\Users\Łukasz Tworzydło\source\repos\calendar_KK\calendar_KK\obj\Debug\netcoreapp3.1\calendar_KK.AssemblyInfo.cs
+C:\Users\Łukasz Tworzydło\source\repos\calendar_KK\calendar_KK\obj\Debug\netcoreapp3.1\calendar_KK.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz Tworzydło\source\repos\calendar_KK\calendar_KK\obj\Debug\netcoreapp3.1\calendar_KK.dll
+C:\Users\Łukasz Tworzydło\source\repos\calendar_KK\calendar_KK\obj\Debug\netcoreapp3.1\calendar_KK.pdb
+C:\Users\Łukasz Tworzydło\source\repos\calendar_KK\calendar_KK\obj\Debug\netcoreapp3.1\calendar_KK.genruntimeconfig.cache
