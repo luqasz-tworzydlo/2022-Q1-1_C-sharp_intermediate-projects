@@ -1,0 +1,14 @@
+C:\Users\Łukasz Tworzydło\source\repos\recursion_KP\recursion_KP\bin\Debug\netcoreapp3.1\recursion_KP.exe
+C:\Users\Łukasz Tworzydło\source\repos\recursion_KP\recursion_KP\bin\Debug\netcoreapp3.1\recursion_KP.deps.json
+C:\Users\Łukasz Tworzydło\source\repos\recursion_KP\recursion_KP\bin\Debug\netcoreapp3.1\recursion_KP.runtimeconfig.json
+C:\Users\Łukasz Tworzydło\source\repos\recursion_KP\recursion_KP\bin\Debug\netcoreapp3.1\recursion_KP.runtimeconfig.dev.json
+C:\Users\Łukasz Tworzydło\source\repos\recursion_KP\recursion_KP\bin\Debug\netcoreapp3.1\recursion_KP.dll
+C:\Users\Łukasz Tworzydło\source\repos\recursion_KP\recursion_KP\bin\Debug\netcoreapp3.1\recursion_KP.pdb
+C:\Users\Łukasz Tworzydło\source\repos\recursion_KP\recursion_KP\obj\Debug\netcoreapp3.1\recursion_KP.csproj.AssemblyReference.cache
+C:\Users\Łukasz Tworzydło\source\repos\recursion_KP\recursion_KP\obj\Debug\netcoreapp3.1\recursion_KP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Łukasz Tworzydło\source\repos\recursion_KP\recursion_KP\obj\Debug\netcoreapp3.1\recursion_KP.AssemblyInfoInputs.cache
+C:\Users\Łukasz Tworzydło\source\repos\recursion_KP\recursion_KP\obj\Debug\netcoreapp3.1\recursion_KP.AssemblyInfo.cs
+C:\Users\Łukasz Tworzydło\source\repos\recursion_KP\recursion_KP\obj\Debug\netcoreapp3.1\recursion_KP.csproj.CoreCompileInputs.cache
+C:\Users\Łukasz Tworzydło\source\repos\recursion_KP\recursion_KP\obj\Debug\netcoreapp3.1\recursion_KP.dll
+C:\Users\Łukasz Tworzydło\source\repos\recursion_KP\recursion_KP\obj\Debug\netcoreapp3.1\recursion_KP.pdb
+C:\Users\Łukasz Tworzydło\source\repos\recursion_KP\recursion_KP\obj\Debug\netcoreapp3.1\recursion_KP.genruntimeconfig.cache
