@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace calendar_KK
+namespace kalendarz_kolokwium_Łukasz_Tworzydło_gd29623
 {
     enum MiesiącNazwa
     {
@@ -19,8 +19,7 @@ namespace calendar_KK
     }
     class Program
     {
-
-        static public bool JakaData(int Jak)
+        static bool JakaData(int Jak)
         {
             if (Jak == 1)
             {
@@ -30,32 +29,25 @@ namespace calendar_KK
             {
                 return false;
             }
-            // określenie sposobu pobrania dany do programu
+            // określenie sposobu pobrania daty do programu
+            // jeśli wartość to 'true' użytkownik wprowadza dane
+            // zaś przy wartości 'false' dane są pobierane z komputera
         }
-
-        static public bool CzyPrzestepnyRok(int rok)
+        static bool CzyPrzestepnyRok(int rok)
         {
             return ((rok % 4 == 0 && rok % 100 != 0) || rok % 400 == 0);
             // jeśli wartość wychodzi 'false' to oznacza, iż jest to nie jest rok przestępny
             // natomiast przy wartości 'true' to oznacza, iż dany rok jest rokiem przystępnym
         }
-
-        static public int DniRoku(int rok)
-        {
-            return LiczbaDni[CzyPrzestepnyRok(rok) ? 1 : 0, 0];
-            // zwracanie określonej liczby dni w roku
-            // [ zależne od tego, czy jest rok przystępny ]
-        }
-
-        static public int DniMiesiącaRoku(int miesiąc, int rok)
+        static int DniMiesiącaRoku(int miesiąc, int rok)
         {
             return LiczbaDni[CzyPrzestepnyRok(rok) ? 1 : 0, miesiąc];
             // zwracanie określonej liczby dni w miesiącach
             // [ zależne od tego, czy jest rok przystępny ]
-
+            // wyświetla odpowiednią ilość dni w przypadku tworzenia [...]
+            // [...] kalendarza wizualnego dla danego miesiąca określonego roku
         }
-
-        static public int NumerDnia(int dzień, int miesiąc, int rok)
+        static int NumerDnia(int dzień, int miesiąc, int rok)
         {
             int numer = CzyPrzestepnyRok(rok) ? 1 : 0;
             while (--miesiąc > 0)
@@ -63,17 +55,7 @@ namespace calendar_KK
             return dzień;
             // zwraca informację, jaki jest numer dnia w danym roku
         }
-
-
-        //////////////////////////////////////////////////////////////////////////////
-        static public int Kdr(int dzień, int miesiąc, int rok)
-        {
-            return DniRoku(rok) - NumerDnia(dzień, miesiąc, rok);
-            // zwraca informację, ile zostało dni do końca roku < jeszcze nie użyte >
-        }
-        //////////////////////////////////////////////////////////////////////////////
-
-        static public int JakiDzieńTygodnia(int dzień, int miesiąc, int rok)
+        static int JakiDzieńTygodnia(int dzień, int miesiąc, int rok)
         {
             if (miesiąc > 2)
                 miesiąc -= 2;
@@ -88,80 +70,96 @@ namespace calendar_KK
             // oblicza i zwraca informację, jaki dzień tygodnia przedstawia określona data
             // 0 - niedziela, 1 - poniedziałek, - 2 - wtorek, 3 - środa ... 6 - sobota
         }
-
         static readonly int[,] LiczbaDni =
         {
-                {365, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31},
-                {366, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}
-                // określenie, czy rok jest przystępny, czy nie
-                // pierwsza linijka określa rok zwykły
-                // druga linijka określa rok przystępny
-            };
+            {365, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31}, // rok tradycyjny
+            {366, 31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31} // rok przystępny
+            // określenie, czy rok jest przystępny, czy nie
+            // pierwsza linijka określa rok zwykły
+            // druga linijka określa rok przystępny
 
-        static string[] DzieńTygodnia =
+            // dokładnie cały rok ma około 365,242199 dnia,
+            // też dlatego ma zwykle 365 dni, zaś co 4 lata ma 366 dni,
+            // czyli przykładowo rok 2016, 2020, bądź 2024 to rok przystępny
+        };
+        static readonly string[] DzieńTygodnia =
         {
-                "Niedziela",
-                "Poniedziałek",
-                "Wtorek",
-                "Środa",
-                "Czwartek",
-                "Piątek",
-                "Sobota"
-                // wypisanie konkretnego dnia tygodnia
-            };
-
-        static void NarysujCałyMiesiąc(int miesiąc, int rok)
+            "niedziela", // wartość => 0
+            "poniedziałek", // wartość => 1
+            "wtorek", // wartość => 2
+            "środa", // wartość => 3
+            "czwartek", // wartość => 4
+            "piątek", // wartość => 5
+            "sobota", // wartość => 6
+            // wypisanie konkretnego dnia tygodnia
+        };
+        static readonly string[] MiesiącNazwy =
         {
-            Console.WriteLine("");
-            Console.CursorLeft = (17 - MiesiącNazwy[miesiąc].Length) / 2;
+            null,
+            "Styczeń", "Luty", "Marzec", // Q1 [ pierwszy kwartał roku ]
+            "Kwiecień", "Maj", "Czerwiec", // Q2 [ drugi kwartał roku ]
+            "Lipiec", "Sierpień", "Wrzesień", // Q3 [ trzeci kwartał roku ]
+            "Październik", "Listopad", "Grudzień" // Q4 [ czwarty kwartał roku ]
+        };
+        static void NazwaMiesiącaRoku(int miesiąc, int rok)
+        {
+            Console.CursorLeft = (27 - MiesiącNazwy[miesiąc].Length) / 2;
             Console.WriteLine("{0} {1}", MiesiącNazwy[miesiąc], rok);
-            Console.WriteLine(" --------------------\n Po Wt Śr Cz Pt So Nd");
-            int n = JakiDzieńTygodnia(0, miesiąc, rok), max = DniMiesiącaRoku(miesiąc, rok);
-            Console.CursorLeft = 3 * n;
-            for (int d = 1; d <= max; d++)
+        }
+        static void NagłówekKalendarza()
+        {
+            Console.WriteLine(" \n " +
+                " pon " +
+                "wto " +
+                "śro " +
+                "czw " +
+                "pią " +
+                "sob " +
+                "nie");
+        }
+        static void WnętrzeKalendarza(int miesiąc, int rok)
+        {
+            int iN = JakiDzieńTygodnia(0, miesiąc, rok), jM = DniMiesiącaRoku(miesiąc, rok);
+            Console.CursorLeft = 4 * iN;
+            for (int kD = 1; kD <= jM; kD++)
             {
-                Console.Write("{0,3}", d);
-                if ((d + n) % 7 == 0)
-                    Console.WriteLine();
+                Console.Write("{0,4}", kD);
+                if ((kD + iN) % 7 == 0)
+                    Console.WriteLine("");
             }
         }
-        static readonly string[] MiesiącNazwy = {null,
-            "Styczeń", "Luty", "Marzec", "Kwiecień", "Maj", "Czerwiec", "Lipiec",
-            "Sierpień", "Wrzesień", "Październik", "Listopad", "Grudzień"};
-
-
         static void Instrukcje(int dzień, int miesiąc, int rok)
         {
-            Console.WriteLine("[1] Dzisiaj jest {0}, {1} dzień roku.",
-                    DzieńTygodnia[Program.JakiDzieńTygodnia(dzień, miesiąc, rok)], Program.NumerDnia(dzień, miesiąc, rok));
-
             // Console.WriteLine(CzyPrzestepnyRok(rok));
             // powyższa instrukcja wyłącznie do testów
 
+            Console.WriteLine($"\n\tWybrana data to: {dzień}/{miesiąc}/{rok}");
+            Console.WriteLine("\t... i to jest {0} dzień roku! ^.^", Program.NumerDnia(dzień, miesiąc, rok));
+
             if (CzyPrzestepnyRok(rok) == false)
             {
-                Console.WriteLine($"\n[2] Rok {rok} NIE JEST rokiem przystępnym! :<");
+                Console.WriteLine($"\n[1] NIE => Rok {rok} NIE JEST rokiem przystępnym! :<");
             }
             else
             {
-                Console.WriteLine($"\n[2] Rok {rok} JEST rokiem przystępnym! :>");
+                Console.WriteLine($"\n[1] TAK => Rok {rok} JEST rokiem przystępnym! :>");
             }
 
-            Console.WriteLine("\n[3] Dla roku " + rok + " pierwszy styczeń to {0} i jest to {1} dzień roku. ;>",
-                DzieńTygodnia[Program.JakiDzieńTygodnia(1, 1, rok)], Program.NumerDnia(1, 1, rok));
+            Console.WriteLine("\n[2] Dla roku " + rok + " pierwszy styczeń to {0}. ;>",
+                (DzieńTygodnia)[Program.JakiDzieńTygodnia(1, 1, rok)]);
 
             Console.WriteLine("\n////////////////////////////////////////////////////////////////////////////////////");
 
-            Console.WriteLine($"\nKalendarz na miesiąc {(MiesiącNazwa)(miesiąc)} {rok} rok/u :>>>");
+            Console.WriteLine($"\n[3] Kalendarz na miesiąc {(MiesiącNazwa)(4)} {rok} roku :>>>\n");
 
-            NarysujCałyMiesiąc(miesiąc, rok);
+            NazwaMiesiącaRoku(4, rok);
+            NagłówekKalendarza();
+            WnętrzeKalendarza(4, rok);
 
             Console.WriteLine("\n\n////////////////////////////////////////////////////////////////////////////////////");
         }
-
         static void Main(string[] args)
         {
-
             string nie = "nie";
             do
             {
@@ -172,21 +170,21 @@ namespace calendar_KK
                     "\n\t\t\t-> Wpisz wybraną wartość: ");
 
                 int Jak = Convert.ToInt32(Console.ReadLine());
+
                 if (JakaData(Jak) == true)
                 {
-                    Console.Write("Wpisz numer dnia : ");
+                    Console.Write("->>> Wpisz numer dnia : ");
                     int dzień = Convert.ToInt32(Console.ReadLine().Trim());
-                    Console.Write("Wpisz numer miesiąca : ");
+                    Console.Write("->>> Wpisz numer miesiąca : ");
                     int miesiąc = Convert.ToInt32(Console.ReadLine().Trim());
-                    Console.Write("Wpisz konkretny rok : ");
+                    Console.Write("->>> Wpisz konkretny rok : ");
                     int rok = Convert.ToInt32(Console.ReadLine().Trim());
 
-                    Console.WriteLine("\n");
                     Instrukcje(dzień, miesiąc, rok);
                 }
                 else
                 {
-                    Console.WriteLine("Data została pobrana z komputera");
+                    Console.WriteLine("\n->>> Data została pobrana z komputera");
 
                     DateTime date = DateTime.Today;
 
@@ -194,19 +192,16 @@ namespace calendar_KK
                     int miesiąc = date.Month;
                     int rok = date.Year;
 
-                    Console.WriteLine("\n");
                     Instrukcje(dzień, miesiąc, rok);
-
                 }
 
                 Console.WriteLine(
-                    $"\nCzy chcesz powtórzyć działanie programu?" +
-                    $"\n=> jeśli tak, wpisz \"tak\" lub cokolwiek innego;" +
-                    $"\n=> jeśli nie, wpisz \"nie\" (przerywa to działanie programu).");
+                    "\nCzy chcesz powtórzyć działanie programu?" +
+                    "\n=> jeśli tak, wpisz \"tak\" lub cokolwiek innego;" +
+                    "\n=> jeśli nie, wpisz \"nie\" (przerywa to działanie programu).");
             } while (!(Console.ReadLine() == nie));
 
             Console.ReadKey();
-
         }
     }
 }
