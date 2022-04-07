@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Łukasz Tworzydło\\Desktop\\Carpe Tonus\\GitHub Repositories\\2022-Q1-1_C-sharp_intermediate-projects\\2_calendar_KK\\src\\2022-01-04 (2)\\calendar_KK\\calendar_KK\\calendar_KK.csproj": {}
+    "C:\\Users\\Łukasz Tworzydło\\Desktop\\Carpe Tonus\\GitHub Repositories\\2022-Q1-1_C-sharp_intermediate-projects\\2_calendar_KK\\src\\2022-01-04 (1)\\calendar_KK\\calendar_KK\\calendar_KK.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Łukasz Tworzydło\\Desktop\\Carpe Tonus\\GitHub Repositories\\2022-Q1-1_C-sharp_intermediate-projects\\2_calendar_KK\\src\\2022-01-04 (2)\\calendar_KK\\calendar_KK\\calendar_KK.csproj": {
+    "C:\\Users\\Łukasz Tworzydło\\Desktop\\Carpe Tonus\\GitHub Repositories\\2022-Q1-1_C-sharp_intermediate-projects\\2_calendar_KK\\src\\2022-01-04 (1)\\calendar_KK\\calendar_KK\\calendar_KK.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Łukasz Tworzydło\\Desktop\\Carpe Tonus\\GitHub Repositories\\2022-Q1-1_C-sharp_intermediate-projects\\2_calendar_KK\\src\\2022-01-04 (2)\\calendar_KK\\calendar_KK\\calendar_KK.csproj",
+        "projectUniqueName": "C:\\Users\\Łukasz Tworzydło\\Desktop\\Carpe Tonus\\GitHub Repositories\\2022-Q1-1_C-sharp_intermediate-projects\\2_calendar_KK\\src\\2022-01-04 (1)\\calendar_KK\\calendar_KK\\calendar_KK.csproj",
         "projectName": "calendar_KK",
-        "projectPath": "C:\\Users\\Łukasz Tworzydło\\Desktop\\Carpe Tonus\\GitHub Repositories\\2022-Q1-1_C-sharp_intermediate-projects\\2_calendar_KK\\src\\2022-01-04 (2)\\calendar_KK\\calendar_KK\\calendar_KK.csproj",
+        "projectPath": "C:\\Users\\Łukasz Tworzydło\\Desktop\\Carpe Tonus\\GitHub Repositories\\2022-Q1-1_C-sharp_intermediate-projects\\2_calendar_KK\\src\\2022-01-04 (1)\\calendar_KK\\calendar_KK\\calendar_KK.csproj",
         "packagesPath": "C:\\Users\\Łukasz Tworzydło\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Łukasz Tworzydło\\Desktop\\Carpe Tonus\\GitHub Repositories\\2022-Q1-1_C-sharp_intermediate-projects\\2_calendar_KK\\src\\2022-01-04 (2)\\calendar_KK\\calendar_KK\\obj\\",
+        "outputPath": "C:\\Users\\Łukasz Tworzydło\\Desktop\\Carpe Tonus\\GitHub Repositories\\2022-Q1-1_C-sharp_intermediate-projects\\2_calendar_KK\\src\\2022-01-04 (1)\\calendar_KK\\calendar_KK\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Łukasz Tworzydło\\AppData\\Roaming\\NuGet\\NuGet.Config"
