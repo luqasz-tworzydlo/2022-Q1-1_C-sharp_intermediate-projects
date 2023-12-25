@@ -1,0 +1,7 @@
+C:\Users\luqasz\source\repos\calendar_KK\calendar_KK\bin\Debug\calendar_KK.exe.config
+C:\Users\luqasz\source\repos\calendar_KK\calendar_KK\bin\Debug\calendar_KK.exe
+C:\Users\luqasz\source\repos\calendar_KK\calendar_KK\bin\Debug\calendar_KK.pdb
+C:\Users\luqasz\source\repos\calendar_KK\calendar_KK\obj\Debug\calendar_KK.csproj.AssemblyReference.cache
+C:\Users\luqasz\source\repos\calendar_KK\calendar_KK\obj\Debug\calendar_KK.csproj.CoreCompileInputs.cache
+C:\Users\luqasz\source\repos\calendar_KK\calendar_KK\obj\Debug\calendar_KK.exe
+C:\Users\luqasz\source\repos\calendar_KK\calendar_KK\obj\Debug\calendar_KK.pdb
