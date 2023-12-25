@@ -1,0 +1,7 @@
+C:\Users\luqasz\source\repos\recursion_KP\recursion_KP\bin\Debug\recursion_KP.exe.config
+C:\Users\luqasz\source\repos\recursion_KP\recursion_KP\bin\Debug\recursion_KP.exe
+C:\Users\luqasz\source\repos\recursion_KP\recursion_KP\bin\Debug\recursion_KP.pdb
+C:\Users\luqasz\source\repos\recursion_KP\recursion_KP\obj\Debug\recursion_KP.csproj.AssemblyReference.cache
+C:\Users\luqasz\source\repos\recursion_KP\recursion_KP\obj\Debug\recursion_KP.csproj.CoreCompileInputs.cache
+C:\Users\luqasz\source\repos\recursion_KP\recursion_KP\obj\Debug\recursion_KP.exe
+C:\Users\luqasz\source\repos\recursion_KP\recursion_KP\obj\Debug\recursion_KP.pdb
